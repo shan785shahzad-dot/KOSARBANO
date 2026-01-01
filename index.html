@@ -1,97 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Kosar Bano | Mathematical Insights</title>
-  <meta name="description" content="Kosar Bano applies mathematical and analytical insights to drive business decisions.">
+  <title>Kosarbano — Hi, Welcome to my website</title>
+  <meta name="description" content="Kosarbano applies mathematical and analytical insights to drive business decisions.">
+  <meta name="theme-color" content="#07223d">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Kosarbano — Hi, Welcome to my website">
+  <meta property="og:description" content="Applying mathematical and analytical insights to drive business decisions.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="card3.jpeg">
 
   <link rel="stylesheet" href="styles.css">
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
+<!-- HEADER -->
 <header class="header">
   <div class="brand">
-    <span class="brand-uh">KB</span>osar Bano
+    <span class="brand-text"><span class="brand-uh">KO</span>SARBANO</span>
   </div>
-  <nav class="nav">
-    <a href="#home">Home</a>
-    <a href="#expertise">Expertise</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-  </nav>
 </header>
 
+<main id="main">
+
 <!-- HERO -->
-<section id="home" class="hero">
-  <img src="profile.jpeg" class="hero-img" alt="Kosar Bano">
-  <h1><span>Ko</span>sar Bano</h1>
-  <p>Applying mathematical and analytical insights to drive business decisions.</p>
+<section class="hero">
+  <img src="profile.jpeg" alt="Kosarbano" class="hero-img">
 
-  <div class="hero-box">
-    <h2>Insight-Driven Analysis & Visualization</h2>
-    <ul>
-      <li>Optimization & Linear Programming</li>
-      <li>Data Analysis & Trend Identification</li>
-      <li>Mathematical Modeling</li>
-      <li>Predictive Forecasting</li>
-    </ul>
-  </div>
-</section>
+  <h1 class="hero-title"><span>Ko</span>sarbano</h1>
 
-<!-- ABOUT -->
-<section id="about" class="section">
-  <img src="about.jpeg" class="section-img" alt="About Kosar Bano">
-  <h2>About Me</h2>
-  <p>
-    I combine rigorous mathematics with real-world analytics to help
-    organizations make confident, data-driven decisions.
+  <p class="hero-subtitle">
+    Applying mathematical and analytical insights to drive business decisions.
   </p>
 </section>
 
+<!-- ABOUT -->
+<section class="section about-section">
+  <div class="about-panel">
+    <img src="about.jpeg" alt="About Kosarbano" class="section-img">
+
+    <h2 class="section-title">About Me</h2>
+
+    <p class="lead">
+      I combine rigorous mathematics with practical experience to help
+      organizations turn complex data into confident decisions.
+    </p>
+
+    <p>
+      My focus is on clarity, precision, and insight-driven problem solving
+      using mathematical modeling, analytics, and research-based approaches.
+    </p>
+  </div>
+</section>
+
 <!-- EXPERTISE -->
-<section id="expertise" class="section dark">
-  <h2>Expertise</h2>
+<section class="section data-section">
 
-  <div class="cards">
+  <h2 class="section-title">Expertise</h2>
+
+  <div class="lab-cards">
+
     <div class="card">
-      <img src="card2.jpeg" alt="">
+      <img src="card2.jpeg" alt="Mathematical Modeling">
       <h3>Mathematical Modeling</h3>
-      <p>Predictive and optimization models for business decisions.</p>
+      <p>Predictive models and optimization for real-world decisions.</p>
     </div>
 
     <div class="card">
-      <img src="extra.jpeg" alt="">
+      <img src="extra.jpeg" alt="Decision Analytics">
       <h3>Decision Analytics</h3>
-      <p>Risk analysis, simulation, and strategic planning.</p>
+      <p>Data-driven insights, forecasting, and risk analysis.</p>
     </div>
 
     <div class="card">
-      <img src="card3.jpeg" alt="">
-      <h3>Research Support</h3>
-      <p>Academic projects, thesis guidance, and analytics mentoring.</p>
+      <img src="card3.jpeg" alt="Strategic Insights">
+      <h3>Strategic Insights</h3>
+      <p>Financial and strategic planning powered by mathematics.</p>
     </div>
+
   </div>
 </section>
 
 <!-- CONTACT -->
-<section id="contact" class="section">
-  <h2>Contact</h2>
-  <p>Email: <strong>Kousarbano009@gmail.com</strong></p>
+<section class="contact-section">
+  <div class="contact-container">
+
+    <div class="contact-info">
+      <h2>Contact</h2>
+      <p>Email:</p>
+      <strong>Kousarbano009@gmail.com</strong>
+    </div>
+
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="6" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+  </div>
 </section>
 
+<!-- FOOTER -->
 <footer class="footer">
-  © 2025 Kosar Bano — All Rights Reserved
+  <p>© 2025 Kosarbano — All Rights Reserved</p>
 </footer>
 
+</main>
 </body>
 </html>
-
 
